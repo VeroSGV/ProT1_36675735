@@ -11,11 +11,9 @@ p {
   font-weight: bolder;
   font-style: italic;
 }
-
-div {
-  background-color: #a0f17d;
+.encabezado {
+  background-color: #d164a7;
 }
-
 header {
   background-color: #d164a7;
   color: #fff;
@@ -23,12 +21,12 @@ header {
   padding: 20px;
 }
 
-n {
+.n {
   padding: 20px; /* espaciado para la sección de 20 pixeles */
 }
 
 footer {
-  background-color: #4caf50; /* Color de fondo del footer */
+  background-color: #af4c89; /* Color de fondo del footer */
   color: #fff;
   padding: 20px 0;
 }
@@ -62,11 +60,21 @@ nav ul li a:hover {
   background-color: #822f59;
 }
 
-img {
-  display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
-  margin: 0 auto; /* Centrar las imágenes horizontalmente */
-  margin-top: 20px;
-  max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+.logo img {
+  display: blocks; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+  margin: 0 auto; /*Centrar las imágenes horizontalmente*/
+  margin-top: 1%;
+  width: 200px; /* Asegurar que las imágenes no excedan el ancho del contenedor */
   border: 3px solid #bd458f; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+  border-radius: 20px; /* Borde redondeado de 10px para suavizar el contorno */
+}
+
+.imagen img {
+  display: blocks; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+  margin: 0 auto; /*Centrar las imágenes horizontalmente*/
+  margin-top: 1%;
+  width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+  height: 50%;
+  border: 3px solid #bd4595; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
   border-radius: 20px; /* Borde redondeado de 10px para suavizar el contorno */
 }
